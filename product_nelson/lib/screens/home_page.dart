@@ -105,3 +105,6 @@ class HomePageState extends State<HomePage> {
     );
   }
 }
+//no 4:
+// 1. Alur data: ApiService mengambil data produk dari url api menggunakan getallProducts kemudian data dibaca dan diubah menjadi list product setelah data diterima setState menyimpan ke list product lalu ListView menampilkan data tersebut
+// 2. Supaya filter bisa dihidup dan dimatikan tanpa kehilangan data
